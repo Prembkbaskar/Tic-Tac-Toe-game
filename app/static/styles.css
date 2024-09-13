@@ -1,0 +1,57 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+}
+
+/* Header styling */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+    margin-bottom: 20px;
+}
+
+/* Board styling */
+.board {
+    display: grid;
+    gap: 5px;
+    margin: 0 auto;
+}
+
+/* Cell styling */
+.board .cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 2px solid #333;
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Cell hover effect */
+.board .cell:hover {
+    background-color: #f9f9f9;
+}
+
+/* Restart button styling */
+#restart-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
